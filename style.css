@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+}
+.row {
+    display: flex;
+    gap: 5px;
+}
+.all {
+    width: 80px;
+    display: flex;
+    justify-content: right;
+}
+#text {
+    width: 260px;
+}
+#email {
+    width: 260px;
+}
+
